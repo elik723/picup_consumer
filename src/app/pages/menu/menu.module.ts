@@ -23,8 +23,7 @@ const routes: Routes = [
     ]
   },
   {path: '', redirectTo: '/menu/home', 
-  //pathMatch: 'full' 
-},
+  pathMatch: 'full' },
 ];
 
 @NgModule({

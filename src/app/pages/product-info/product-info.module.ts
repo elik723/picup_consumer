@@ -7,11 +7,14 @@ import { IonicModule } from '@ionic/angular';
 
 import { ProductInfoPage } from './product-info.page';
 
+
+
 const routes: Routes = [
   {
     path: '',
     component: ProductInfoPage
   }
+  
 ];
 
 @NgModule({
