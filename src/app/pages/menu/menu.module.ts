@@ -22,10 +22,11 @@ const routes: Routes = [
       { path: 'past-orders', loadChildren: '../orders/past-orders/past-orders.module#PastOrdersPageModule' },
     ]
   },
-  {path: '', redirectTo: '/menu/home', 
+  //{path: '', redirectTo: '/menu/home', 
   //pathMatch: 'full' 
-},
+//},
 ];
+
 
 @NgModule({
   imports: [

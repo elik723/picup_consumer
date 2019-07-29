@@ -2,7 +2,6 @@ import { Cart } from './cart';
 
 export class User {
 
-
     private id: number;
     private name: string;
     private email: string;
@@ -14,8 +13,10 @@ export class User {
     private past_orders: number[];
     private pending_orders: number[];
 
+
     private cart: Cart = null;
 
+    /*
     constructor(id, name, email, password,
         cell_phone_number, address, instructions,
         new_user, past_orders, pending_orders) 
@@ -31,6 +32,7 @@ export class User {
         this.past_orders = past_orders;
         this.pending_orders = pending_orders;
     }
+    */
 
     //setter methods
 
