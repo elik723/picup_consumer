@@ -22,9 +22,8 @@ const routes: Routes = [
       { path: 'past-orders', loadChildren: '../orders/past-orders/past-orders.module#PastOrdersPageModule' },
     ]
   },
-  //{path: '', redirectTo: '/menu/home', 
-  //pathMatch: 'full' 
-//},
+  {path: '', redirectTo: '/menu/home', 
+  pathMatch: 'full' },
 ];
 
 

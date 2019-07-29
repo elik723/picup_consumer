@@ -1,3 +1,4 @@
+import { Cart } from './../../shared/models/cart';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartPage implements OnInit {
 
+
+  public resultCart: any;
+  
   constructor() { }
 
   ngOnInit() {

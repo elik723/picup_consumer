@@ -27,6 +27,13 @@ export class MenuPage implements OnInit {
       url:'/menu/profile'
     },
   ]; 
+
+  hiddenPages = [
+    {
+      title: '',
+      url:'/product-info'
+    },
+  ];
  
   selectedPath = '';
 
