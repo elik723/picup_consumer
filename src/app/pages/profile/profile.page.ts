@@ -35,4 +35,23 @@ export class ProfilePage implements OnInit {
     // This should navigate to the register page:
     this.navCtrl.navigateBack('home');
   }
+
+  pages = [
+    {
+      title: 'Home',
+      url: '../menu/home'
+    },
+    {
+      title: 'Cart',
+      url:'../menu/cart'
+    },
+    {
+      title: 'Orders',
+      url:'../menu/orders'
+    },
+    {
+      title: 'Profile',
+      url:'../menu/profile'
+    },
+  ]; 
 }

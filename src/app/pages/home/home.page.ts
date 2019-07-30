@@ -14,6 +14,23 @@ export class HomePage implements OnInit {
 
   ngOnInit() {
   }
-
+  pages = [
+    {
+      title: 'Home',
+      url: '../menu/home'
+    },
+    {
+      title: 'Cart',
+      url:'../menu/cart'
+    },
+    {
+      title: 'Orders',
+      url:'../menu/orders'
+    },
+    {
+      title: 'Profile',
+      url:'../menu/profile'
+    },
+  ]; 
 
 }
